@@ -1,6 +1,6 @@
 :root {
-  --screen-width: 350px;
-  --screen-height: 650px;
+  --screen-width: 392px;
+  --screen-height: 852px;
   --secondary-bg: #ffffff;
   --border-color: #e0e0e0;
   --text-primary: #1f1f1f;
@@ -21,6 +21,9 @@ body {
   background-color: #f0f2f5;
   height: 100%; /* 让body也撑满父元素(html) */
   overflow: hidden; /* 防止body本身出现滚动条 */
+  display: flex;        /* 启用 Flex 布局 */
+  justify-content: center; /* 保持水平居中 */
+  align-items: flex-end; /* 垂直底部对齐 */
 }
 /* ▲▲▲ 替换结束 ▲▲▲ */
 
